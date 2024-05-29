@@ -1,4 +1,9 @@
 {
 "meta":{"test_sets":[],"test_metrics":[],"learn_metrics":[{"best_value":"Min","name":"MAE"}],"launch_mode":"Train","parameters":"","iteration_count":5,"learn_sets":["learn"],"name":"experiment"},
 "iterations":[
+{"learn":[0.9873731986],"iteration":0,"passed_time":0.8057307935,"remaining_time":3.222923174},
+{"learn":[0.9846700316],"iteration":1,"passed_time":1.612118781,"remaining_time":2.418178172},
+{"learn":[0.9820930678],"iteration":2,"passed_time":2.426543629,"remaining_time":1.617695753},
+{"learn":[0.9793597674],"iteration":3,"passed_time":3.258364833,"remaining_time":0.8145912083},
+{"learn":[0.976715258],"iteration":4,"passed_time":4.09434553,"remaining_time":0}
 ]}
