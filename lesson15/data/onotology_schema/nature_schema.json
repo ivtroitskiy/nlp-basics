@@ -1,0 +1,107 @@
+{
+  "id": "nature",
+  "description": "information about a nature",
+  "attributes": [
+    {
+      "id": "taxon",
+      "description": "Taxon is a taxonomic group of any rank, such as a species, family, or class.",
+      "examples": [
+        "Mormyrus",
+        "Henrica"
+      ]
+    },
+    {
+      "id": "mountain range",
+      "description": "A mountain range or hill range is a series of mountains or hills arranged in a line and connected by high ground",
+      "examples": [
+        "Wilson Hills",
+        "Queen Fabiola Mountains"
+      ]
+    },
+    {
+      "id": "mountain",
+      "description": "The name of mountain",
+      "examples": [
+        "Mount Eyskens",
+        "Kahiltna Dome"
+      ]
+    },
+    {
+      "id": "watercourse",
+      "description": "The name of watercourse, a brook, stream, or artificially constructed water channel.",
+      "examples": [
+        "White Ernz",
+        "Menominee River"
+      ]
+    },
+    {
+      "id": "body of water",
+      "description": "The name of body of water, lake",
+      "examples": [
+        "Lake Chiuta",
+        "Fouta Djallon"
+      ]
+    },
+    {
+      "id": "synonym",
+      "description": "Name that apply to the same taxon. Synonyms in taxonomy are similar to normal synonyms",
+      "examples": [
+        "Halosarcia",
+        "Kochia americana"
+      ]
+    },
+    {
+      "id": "reservoir",
+      "description": "The neme of reservoir, a large man-made body of water used to store water",
+      "examples": [
+        "Lake Hartwell",
+        "Taylor Park Reservoir"
+      ]
+    },
+    {
+      "id": "dam",
+      "description": "The neme if the dam that created a reservoir",
+      "examples": [
+        "Goodnough Dike",
+        "Scrivener Dam"
+      ]
+    },
+    {
+      "id": "drainage basin",
+      "description": "The name of drainage basin, a drainage basin is an area of land where all flowing surface water converges to a single point, such as a river mouth",
+      "examples": [
+        "Santa Ana River watershed",
+        "James Bay Basin"
+      ]
+    },
+    {
+      "id": "cycling race",
+      "description": "The name of drainage basin, a drainage basin is an area of land where all flowing surface water converges to a single point, such as a river mouth",
+      "examples": [
+        "Santa Ana River watershed",
+        "James Bay Basin"
+      ]
+    }
+  ],
+  "examples": [
+    [
+      "Silverado Canyon are part of the Santa Ana River watershed",
+      [
+        {
+          "drainage basin": "Santa Ana River watershed",
+          "watercourse": "Silverado Canyon"
+        }
+      ]
+    ],
+    [
+      "The dam impounds Crystal Reservoir",
+      [
+        {
+          "reservoir": "Crystal Reservoir",
+          "dam": "Crystal Dam"
+        }
+      ]
+    ]
+  ],
+  "many": true
+}

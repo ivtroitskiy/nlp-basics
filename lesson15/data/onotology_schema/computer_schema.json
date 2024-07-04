@@ -1,0 +1,76 @@
+{
+  "id": "computer",
+  "description": "information about a computer",
+  "attributes": [
+    {
+      "id": "software",
+      "description": "The name of the software mentioned in the text",
+      "examples": [
+        "Applesoft BASIC",
+        "Battle Chess"
+      ]
+    },
+    {
+      "id": "application",
+      "description": "Application is computer software package that performs a specific function for an end user or another",
+      "examples": [
+        "The Western Journal",
+        "Electronic Document System"
+      ]
+    },
+    {
+      "id": "computer",
+      "description": "The device or computer that can run specific software or operation system",
+      "examples": [
+        "IBM 7090",
+        "X86"
+      ]
+    },
+    {
+      "id": "company",
+      "description": "The company that produces software",
+      "examples": [
+        "Microsoft",
+        "IBM"
+      ]
+    },
+    {
+      "id": "human",
+      "description": "The name of human",
+      "examples": [
+        "Klaus Schmidinger",
+        "Ben Shneiderman"
+      ]
+    },
+    {
+      "id": "operating system",
+      "description": "The name of the operating system",
+      "examples": [
+        "MacOS",
+        "Chrome OS"
+      ]
+    }
+  ],
+  "examples": [
+    [
+      "Opera Software also implemented the Nintendo DS Browser for Nintendo's handheld system",
+      [
+        {
+          "company": "Opera Software",
+          "software": "Internet Channel"
+        }
+      ]
+    ],
+    [
+      "Mighty Bomb Jack (, Maiti Bon Jakku) is a 1986 Nintendo Entertainment System (NES) game released by Tecmo, which was later ported to the Amiga, Atari ST and Commodore 64.",
+      [
+        {
+          "company": "Tecmo",
+          "software": "Mighty Bomb Jack",
+          "computer": "Commodore 64"
+        }
+      ]
+    ]
+  ],
+  "many": true
+}

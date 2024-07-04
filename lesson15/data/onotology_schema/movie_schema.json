@@ -1,0 +1,99 @@
+{
+  "id": "movie",
+  "description": "information about a movie",
+  "attributes": [
+    {
+      "id": "human",
+      "description": "The name of the human: director, screenwriter, cast member, etc.",
+      "examples": [
+        "film directed by Noriyuki Abe",
+        "Noriyuki Abe"
+      ]
+    },
+    {
+      "id": "city",
+      "description": "The city where the movie was filmed or the city in which the film takes place",
+      "examples": [
+        "a Vienna-based company",
+        "Vienna"
+      ]
+    },
+    {
+      "id": "country",
+      "description": "The country where the movie was filmed or the country in which the film takes place",
+      "examples": [
+        "The story takes place in Clairton, Pennsylvania,",
+        "Pennsylvania"
+      ]
+    },
+    {
+      "id": "film",
+      "description": "The name of the film",
+      "examples": [
+        "Bleach: Hell Verse (Japanese: BLEACH",
+        "Bleach: Hell Verse"
+      ]
+    },
+    {
+      "id": "genre",
+      "description": "The genre of the film",
+      "examples": [
+        "Japanese animated fantasy film",
+        "fantasy film"
+      ]
+    },
+    {
+      "id": "film_production_company",
+      "description": "The name of the film production company",
+      "examples": [
+        "short film produced by Pixar",
+        "Pixar"
+      ]
+    },
+    {
+      "id": "award",
+      "description": "The name of the award",
+      "examples": [
+        "The film won the National Film Award for Best Feature Film",
+        "National Film Award for Best Feature Film"
+      ]
+    },
+    {
+      "id": "written_work",
+      "description": "The written work on which the film is based",
+      "examples": [
+        "Adventures of Nils Holgersson is based on the novel The Wonderful Adventures of Nils",
+        "The Wonderful Adventures of Nils"
+      ]
+    },
+    {
+      "id": "film_character",
+      "description": "The name of the film character",
+      "examples": [
+        "the first creation of the character Mickey Mouse",
+        "Mickey Mouse"
+      ]
+    }
+  ],
+  "examples": [
+    [
+      "Welcome to Eltingville was written by Dorkin and Chuck Sheetz and received a positive reception.",
+      [
+        {
+          "human": "Chuck Sheetz",
+          "written work": "Welcome to Eltingville"
+        }
+      ]
+    ],
+    [
+      "Mobile Suit Gundam F91 was Gundam creator Yoshiyuki Tomino's attempt to launch a new Gundam saga, set 30 years after Char's Counterattack and 27 years after the later published Gundam Unicorn.",
+      [
+        {
+          "human": "Yoshiyuki Tomino",
+          "film": "Mobile Suit Gundam F91"
+        }
+      ]
+    ]
+  ],
+  "many": true
+}
